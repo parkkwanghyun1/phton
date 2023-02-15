@@ -65,13 +65,13 @@
     <Compile Include="Assets\Photon\PhotonLibs\WebSocket\WebSocket.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\TextButtonTransition.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\NamePickGui.cs" />
+    <Compile Include="Assets\Script\PhotonSetting.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\IgnoreUiRaycastWhenInactive.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\FriendItem.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChatGui.cs" />
     <Compile Include="Assets\Script\NotificationManager.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\TextToggleIsOnTransition.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\OnStartDelete.cs" />
-    <Compile Include="Assets\Script\PhotonSetting.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.xml" />
@@ -680,6 +680,10 @@
       <Project>{DF9B7D87-AD4B-9DCA-AEAC-FCC5C3E90C30}</Project>
       <Name>Unity.TextMeshPro.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="PlayFab.Player.csproj">
+      <Project>{EE55C359-F663-F81E-3ACF-38C4BC3AC7DC}</Project>
+      <Name>PlayFab.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Flow.Player.csproj">
       <Project>{DCEDE822-14E4-FC5F-72A5-88975A144984}</Project>
       <Name>Unity.VisualScripting.Flow.Player</Name>
@@ -723,10 +727,6 @@
     <ProjectReference Include="Unity.VisualScripting.State.Player.csproj">
       <Project>{45B96DCA-EAEE-829C-C4A9-80ABC7FE4195}</Project>
       <Name>Unity.VisualScripting.State.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="PlayFab.Player.csproj">
-      <Project>{EE55C359-F663-F81E-3ACF-38C4BC3AC7DC}</Project>
-      <Name>PlayFab.Player</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

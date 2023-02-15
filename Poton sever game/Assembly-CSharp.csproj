@@ -65,13 +65,13 @@
     <Compile Include="Assets\Photon\PhotonLibs\WebSocket\WebSocket.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\TextButtonTransition.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\NamePickGui.cs" />
+    <Compile Include="Assets\Script\PhotonSetting.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\IgnoreUiRaycastWhenInactive.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\FriendItem.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChatGui.cs" />
     <Compile Include="Assets\Script\NotificationManager.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\TextToggleIsOnTransition.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\OnStartDelete.cs" />
-    <Compile Include="Assets\Script\PhotonSetting.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.xml" />
@@ -728,9 +728,17 @@
       <Project>{459F6579-9B76-3FF8-7109-8C2734AD12CD}</Project>
       <Name>PhotonUnityNetworking.Utilities.Culling.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="PlayFabSDKEditor.csproj">
+      <Project>{CE0CCEAD-D9C0-ECC7-A63C-7FCE8BB42E2C}</Project>
+      <Name>PlayFabSDKEditor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.VSCode.Editor.csproj">
       <Project>{22298BB6-92E5-657E-9F73-95B31212FFE1}</Project>
       <Name>Unity.VSCode.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="PlayFabEditorExtensions.csproj">
+      <Project>{6A5069AC-E223-FA0E-70AB-8BE911C0815B}</Project>
+      <Name>PlayFabEditorExtensions</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
       <Project>{C6C90EAD-653E-0C6F-D909-4CF9FE7CEC27}</Project>
@@ -763,6 +771,10 @@
     <ProjectReference Include="Unity.VisualScripting.State.Editor.csproj">
       <Project>{2F92C8D0-087B-2295-14BF-7A442FEEED0D}</Project>
       <Name>Unity.VisualScripting.State.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="PlayFab.csproj">
+      <Project>{BC8ADC50-4048-3691-49AF-D88315891FC1}</Project>
+      <Name>PlayFab</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.SettingsProvider.Editor.csproj">
       <Project>{8A8A06EF-5D28-0666-A94B-D419F661B9E4}</Project>
@@ -859,18 +871,6 @@
     <ProjectReference Include="Unity.VisualScripting.State.csproj">
       <Project>{2C1775CC-DF01-781D-651C-536C2E2732D3}</Project>
       <Name>Unity.VisualScripting.State</Name>
-    </ProjectReference>
-    <ProjectReference Include="PlayFabEditorExtensions.csproj">
-      <Project>{6A5069AC-E223-FA0E-70AB-8BE911C0815B}</Project>
-      <Name>PlayFabEditorExtensions</Name>
-    </ProjectReference>
-    <ProjectReference Include="PlayFabSDKEditor.csproj">
-      <Project>{CE0CCEAD-D9C0-ECC7-A63C-7FCE8BB42E2C}</Project>
-      <Name>PlayFabSDKEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="PlayFab.csproj">
-      <Project>{BC8ADC50-4048-3691-49AF-D88315891FC1}</Project>
-      <Name>PlayFab</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
