@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
+using Photon.Realtime;
 
-public class ConnectServer : MonoBehaviour
+public class ConnectServer : MonoBehaviourPunCallbacks
 {
     private string serverName;
 
-    pbulic void SecelcServer(string text)
+    public void SecelcServer(string text)
     {
         serverName = text;
 
@@ -18,5 +20,10 @@ public class ConnectServer : MonoBehaviour
     public override void OnJoinedLobby()
     {
         PhotonNetwork.LoadLevel("Photon Room");
+    }
+
+    public override void OnConnectedToMaster()
+    {
+        PhotonNetwork.JoinLobby(new TypedLobby(serverName,LobbyType.Default));
     }
 }
