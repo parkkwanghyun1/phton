@@ -382,6 +382,7 @@
 "Assets/Script/Billboard.cs"
 "Assets/Script/CameraShake.cs"
 "Assets/Script/CharacterSystem.cs"
+"Assets/Script/ChatManager.cs"
 "Assets/Script/ConnectServer.cs"
 "Assets/Script/GameManager.cs"
 "Assets/Script/Information.cs"

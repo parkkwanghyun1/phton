@@ -4,15 +4,21 @@ using UnityEngine;
 
 public class Bee : MonoBehaviour
 {
-    // Start is called before the first frame update
+
+    private Vector3 direction;
+    private GameObject target;
+    private float speed = 10.0f;
+
     void Start()
     {
-        
+        target = GameObject.Find("Character(Clone)");
+
+        direction = target.transform.position - transform.position;
+        transform.LookAt(target.transform);
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        transform.position += direction.normalized * speed * Time.deltaTime;
     }
 }
