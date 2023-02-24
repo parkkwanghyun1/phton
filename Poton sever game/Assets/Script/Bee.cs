@@ -11,7 +11,7 @@ public class Bee : MonoBehaviour
 
     void Start()
     {
-        target = GameObject.Find("Character(Clone)");
+        target = GameObject.FindGameObjectWithTag("Player");
 
         direction = target.transform.position - transform.position;
         transform.LookAt(target.transform);

@@ -1,0 +1,655 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1677238407860916, "dur": 1509436, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677238407861137, "dur": 4294, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677238407865433, "dur": 32394, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677238407897829, "dur": 695586, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677238408593416, "dur": 762685, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677238409356103, "dur": 14249, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677238409370764, "dur": 9, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1677238408267849, "dur": 315376, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1677238408268648, "dur": 37595, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1677238408570362, "dur": 3641, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1677238408574006, "dur": 9214, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1677238408574557, "dur": 8044, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1677238408586756, "dur": 1029, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1677238408586110, "dur": 1698, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677238409370844, "dur": 134, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1677238408626168, "dur":1247, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238408627419, "dur":69, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1677238408627522, "dur":18, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1677238408627540, "dur":494, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1677238408628055, "dur":530, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238408628585, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238409347943, "dur":289, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238409348232, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238409348246, "dur":15, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238409348261, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238409348267, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238409348269, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238409348273, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238409348274, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238409348277, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238409348278, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238409348282, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238409348283, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238409348286, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238409348287, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238409348291, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238409348292, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238409348296, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238409348297, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238409348300, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238409348300, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238409348304, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238409348305, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238409348308, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238409348309, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238409348312, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238409348313, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238409348316, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238409348317, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238409348320, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238409348321, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238409348324, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238409348325, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238409348329, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238409348341, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238409348381, "dur":1715, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1677238408628018, "dur":573, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677238408628592, "dur":3551, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677238408632152, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1677238408632158, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677238408633259, "dur":370, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1677238408633634, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1677238408633735, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677238408633962, "dur":4909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1677238408638876, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1677238408639022, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677238408639060, "dur":227938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1677238408867038, "dur":95500, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677238408962544, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677238408962556, "dur":1705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677238408964299, "dur":112537, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677238409076841, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677238409076850, "dur":1111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677238409078000, "dur":10038, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/PhotonVoice.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1677238409088044, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677238409088057, "dur":961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/PhotonVoice.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1677238409089052, "dur":76071, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/PhotonVoice.API.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677238409165130, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677238409165142, "dur":3603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/PhotonVoice.API.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677238409168786, "dur":134450, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677238409303240, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677238409303249, "dur":762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677238409304031, "dur":43922, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677238408628045, "dur":550, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677238408628596, "dur":3551, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677238408632152, "dur":10223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1677238408642378, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677238408642391, "dur":1383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1677238408643813, "dur":62679, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1677238408706495, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677238408706499, "dur":1822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1677238408708354, "dur":29933, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677238408738291, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677238408738297, "dur":944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677238408739278, "dur":15482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677238408754764, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677238408754774, "dur":1104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677238408755911, "dur":29443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677238408785358, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677238408785367, "dur":1137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677238408786541, "dur":29981, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677238408816558, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677238408816571, "dur":1077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677238408817687, "dur":44660, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677238408862351, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677238408862358, "dur":1586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677238408863976, "dur":26227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677238408890210, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677238408890225, "dur":950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677238408891211, "dur":14290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1677238408905505, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677238408905512, "dur":2819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1677238408908383, "dur":6344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1677238408914731, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677238408914738, "dur":1523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1677238408916295, "dur":224281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677238409140582, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677238409140594, "dur":2951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677238409143580, "dur":103527, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/Photon3Unity3D.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677238409247111, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677238409247135, "dur":798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/Photon3Unity3D.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677238409247953, "dur":99998, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677238408628345, "dur":359, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677238408628704, "dur":3449, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677238408632153, "dur":10153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1677238408642309, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677238408642323, "dur":1411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1677238408643780, "dur":376455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677238409020263, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677238409020272, "dur":27163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677238409047475, "dur":28728, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/PlayFab.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1677238409076210, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677238409076221, "dur":1832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/PlayFab.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1677238409078086, "dur":96336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/PhotonVoice.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677238409174426, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677238409174503, "dur":827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/PhotonVoice.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677238409175362, "dur":69582, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677238409244949, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677238409244958, "dur":696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677238409245676, "dur":102271, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677238408628084, "dur":520, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677238408628604, "dur":3562, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677238408632168, "dur":10048, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1677238408642220, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677238408642235, "dur":2236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1677238408644524, "dur":61143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game.exe" }}
+,{ "pid":12345, "tid":4, "ts":1677238408705672, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677238408705684, "dur":1851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game.exe" }}
+,{ "pid":12345, "tid":4, "ts":1677238408707583, "dur":30653, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677238408738241, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677238408738251, "dur":1017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677238408739302, "dur":62379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677238408801684, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677238408801694, "dur":831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677238408802558, "dur":34454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677238408837016, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677238408837024, "dur":4918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677238408841988, "dur":26423, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677238408868418, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677238408868431, "dur":2922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677238408871399, "dur":26233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677238408897636, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677238408897672, "dur":6575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677238408904288, "dur":98387, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677238409002684, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677238409002697, "dur":2489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677238409005238, "dur":190446, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677238409195687, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677238409195694, "dur":3007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677238409198732, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1677238409198852, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677238409198857, "dur":794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1677238409199685, "dur":148252, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677238408628104, "dur":504, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677238408628608, "dur":3553, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677238408632163, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1677238408632350, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677238408643780, "dur":62685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1677238408706515, "dur":18215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677238408724735, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677238408724825, "dur":1147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677238408726013, "dur":16535, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677238408742552, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677238408742561, "dur":1092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677238408743683, "dur":26597, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677238408770283, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677238408770290, "dur":3005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677238408773331, "dur":35191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677238408808530, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677238408808543, "dur":1179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677238408809765, "dur":17633, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677238408827402, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677238408827413, "dur":890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677238408828341, "dur":33640, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677238408861988, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677238408862000, "dur":935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677238408862969, "dur":35088, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677238408898060, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677238408898101, "dur":17983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677238408916115, "dur":97755, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677238409013875, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677238409013887, "dur":4582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677238409018502, "dur":140459, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677238409158967, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677238409158978, "dur":2981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677238409161995, "dur":183686, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677238409345685, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677238409345694, "dur":2180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677238409347905, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":5, "ts":1677238409347907, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677238408628132, "dur":481, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677238408628613, "dur":3532, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677238408632153, "dur":26830, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1677238408658995, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677238408659396, "dur":47778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1677238408707219, "dur":34857, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677238408742083, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677238408742094, "dur":1170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677238408743304, "dur":26808, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677238408770119, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677238408770131, "dur":2282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677238408772454, "dur":75400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677238408847859, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677238408847870, "dur":2805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677238408850716, "dur":15858, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677238408866578, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677238408866585, "dur":3242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677238408869863, "dur":43308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677238408913175, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677238408913186, "dur":955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677238408914177, "dur":35741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1677238408949924, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677238408949936, "dur":1207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1677238408951181, "dur":117966, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677238409069153, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677238409069166, "dur":978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677238409070181, "dur":11266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/PhotonVoice.PUN.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1677238409081454, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677238409081469, "dur":1022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/PhotonVoice.PUN.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1677238409082526, "dur":9916, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/PhotonVoice.API.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1677238409092446, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677238409092458, "dur":1090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/PhotonVoice.API.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1677238409093581, "dur":113665, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/PhotonUnityNetworking.Utilities.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677238409207249, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677238409207258, "dur":816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/PhotonUnityNetworking.Utilities.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677238409208099, "dur":139844, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677238408628148, "dur":469, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677238408628618, "dur":3540, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677238408632159, "dur":804, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1677238408632976, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677238408634329, "dur":212829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1677238408847208, "dur":18323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677238408865538, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677238408865550, "dur":1208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677238408866821, "dur":30808, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677238408897635, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677238408897673, "dur":4433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677238408902142, "dur":9513, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1677238408911685, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677238408911697, "dur":1040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1677238408912780, "dur":64711, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677238408977514, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677238408977522, "dur":824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677238408978380, "dur":57912, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677238409036299, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677238409036312, "dur":1025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677238409037373, "dur":144236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677238409181616, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677238409181628, "dur":998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677238409182659, "dur":722, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Plugins/x86_64/webrtc-audio.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677238409183384, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677238409184895, "dur":1204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Plugins/x86_64/webrtc-audio.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677238409186144, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Plugins/x86_64/AudioIn.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677238409186389, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677238409186496, "dur":974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Plugins/x86_64/AudioIn.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677238409187507, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1677238409187545, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677238409187550, "dur":3187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1677238409190772, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1677238409190811, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677238409190840, "dur":1242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1677238409192117, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1677238409192230, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677238409192239, "dur":766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1677238409193035, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/resources.resource" }}
+,{ "pid":12345, "tid":7, "ts":1677238409193071, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677238409193076, "dur":1926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/resources.resource" }}
+,{ "pid":12345, "tid":7, "ts":1677238409195038, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/level3" }}
+,{ "pid":12345, "tid":7, "ts":1677238409195074, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677238409195080, "dur":1595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/level3" }}
+,{ "pid":12345, "tid":7, "ts":1677238409196709, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/level1.resS" }}
+,{ "pid":12345, "tid":7, "ts":1677238409196747, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677238409196755, "dur":1106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/level1.resS" }}
+,{ "pid":12345, "tid":7, "ts":1677238409197897, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1677238409197940, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677238409197946, "dur":911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1677238409198887, "dur":149047, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677238408628166, "dur":506, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677238408628672, "dur":3476, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677238408632153, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1677238408632316, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677238408634256, "dur":9255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1677238408643557, "dur":62154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677238408705733, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677238408705738, "dur":1352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677238408707137, "dur":36650, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677238408743791, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677238408743800, "dur":862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677238408744696, "dur":39528, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677238408784230, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677238408784241, "dur":1033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677238408785314, "dur":43269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677238408828587, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677238408828598, "dur":6967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677238408835615, "dur":15712, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677238408851331, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677238408851341, "dur":1289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677238408852667, "dur":13566, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677238408866236, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677238408866262, "dur":3539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677238408869836, "dur":15931, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677238408885772, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677238408885782, "dur":806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677238408886618, "dur":18685, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677238408905307, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677238408905314, "dur":1044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677238408906390, "dur":85923, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677238408992319, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677238408992331, "dur":4973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677238408997339, "dur":195365, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677238409192707, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677238409192715, "dur":1196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677238409193946, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1677238409193985, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677238409193991, "dur":23747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1677238409217775, "dur":130174, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677238408628196, "dur":481, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677238408628677, "dur":3474, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677238408632152, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1677238408632365, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677238408644143, "dur":206499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1677238408851149, "dur":15433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677238408866585, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677238408866592, "dur":3359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677238408869984, "dur":29388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677238408899377, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677238408899386, "dur":6094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677238408905515, "dur":8881, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1677238408914401, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677238408914411, "dur":1653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1677238408916103, "dur":198238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677238409114347, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677238409114359, "dur":1318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677238409115707, "dur":8511, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/PhotonRealtime.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1677238409124225, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677238409124238, "dur":1018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/PhotonRealtime.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1677238409125291, "dur":104084, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/PhotonRealtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677238409229379, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677238409229387, "dur":779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/PhotonRealtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677238409230190, "dur":117771, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677238408628222, "dur":459, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677238408628681, "dur":3471, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677238408632152, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1677238408632332, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677238408637898, "dur":7036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1677238408644977, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":10, "ts":1677238408645077, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677238408645435, "dur":65878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":10, "ts":1677238408711356, "dur":88195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677238408799558, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677238408799570, "dur":1853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677238408801460, "dur":17980, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677238408819446, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677238408819458, "dur":1242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677238408820737, "dur":15304, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677238408836045, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677238408836078, "dur":822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677238408836941, "dur":19982, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677238408856930, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677238408856943, "dur":948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677238408857980, "dur":26113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677238408884100, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677238408884140, "dur":1813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677238408885988, "dur":30795, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677238408916787, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677238408916797, "dur":890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677238408917718, "dur":99045, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677238409016766, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677238409016776, "dur":832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677238409017645, "dur":54669, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677238409072320, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677238409072333, "dur":1010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677238409073380, "dur":53083, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/PhotonVoice.PUN.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677238409126466, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677238409126474, "dur":801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/PhotonVoice.PUN.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677238409127306, "dur":59698, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/PhotonChat.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677238409187008, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677238409187015, "dur":731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/PhotonChat.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677238409187778, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":10, "ts":1677238409187813, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677238409187818, "dur":724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":10, "ts":1677238409188575, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":10, "ts":1677238409188613, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677238409188618, "dur":783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":10, "ts":1677238409189434, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1677238409189471, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677238409189483, "dur":5878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1677238409195394, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/level2.resS" }}
+,{ "pid":12345, "tid":10, "ts":1677238409195432, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677238409195436, "dur":1540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/level2.resS" }}
+,{ "pid":12345, "tid":10, "ts":1677238409197011, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/level1" }}
+,{ "pid":12345, "tid":10, "ts":1677238409197046, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677238409197052, "dur":1179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/level1" }}
+,{ "pid":12345, "tid":10, "ts":1677238409198262, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":10, "ts":1677238409198303, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677238409198308, "dur":1078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":10, "ts":1677238409199420, "dur":148518, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677238408628256, "dur":434, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677238408628690, "dur":3456, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677238408632153, "dur":203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1677238408632358, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677238408643841, "dur":62568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1677238408706461, "dur":15476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677238408721973, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677238408722405, "dur":745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677238408723183, "dur":23171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677238408746357, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677238408746366, "dur":1135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677238408747541, "dur":145156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677238408892702, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677238408892714, "dur":1228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677238408893978, "dur":48311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677238408942294, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677238408942304, "dur":1308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677238408943649, "dur":146352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677238409090006, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677238409090019, "dur":2057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677238409092125, "dur":8478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/PhotonUnityNetworking.Utilities.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1677238409100610, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677238409100653, "dur":1655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/PhotonUnityNetworking.Utilities.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1677238409102345, "dur":138527, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/PhotonUnityNetworking.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677238409240876, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677238409240886, "dur":912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/PhotonUnityNetworking.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677238409241820, "dur":106130, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677238408628241, "dur":443, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677238408628685, "dur":3485, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677238408632172, "dur":816, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1677238408632992, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677238408634433, "dur":7616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1677238408642101, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":12, "ts":1677238408642239, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677238408642245, "dur":65263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":12, "ts":1677238408708542, "dur":21151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677238408729713, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677238408729723, "dur":933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677238408730695, "dur":14454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677238408745153, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677238408745160, "dur":1034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677238408746228, "dur":6768, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1677238408753003, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677238408753014, "dur":1384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1677238408754433, "dur":19501, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677238408773939, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677238408773950, "dur":829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677238408774811, "dur":19690, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677238408794508, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677238408794520, "dur":968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677238408795520, "dur":16526, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677238408812050, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677238408812058, "dur":818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677238408812908, "dur":28833, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677238408841746, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677238408841757, "dur":868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677238408842660, "dur":124269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677238408966935, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677238408966947, "dur":2622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677238408969606, "dur":78636, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677238409048246, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677238409048257, "dur":905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677238409049201, "dur":198041, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/PlayFab.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677238409247244, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677238409247249, "dur":1032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/PlayFab.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677238409248302, "dur":99637, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677238408628283, "dur":411, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677238408628694, "dur":3460, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677238408632157, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":13, "ts":1677238408632318, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677238408637582, "dur":68513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":13, "ts":1677238408706136, "dur":55485, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677238408761628, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677238408761639, "dur":1096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677238408762772, "dur":32470, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677238408795246, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677238408795254, "dur":894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677238408796183, "dur":15500, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677238408811690, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677238408811702, "dur":880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677238408812617, "dur":13263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677238408825887, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677238408825899, "dur":1075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677238408827011, "dur":39060, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677238408866076, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677238408866085, "dur":2385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677238408868516, "dur":16031, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677238408884551, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677238408884558, "dur":1275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677238408885870, "dur":132690, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677238409018564, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677238409018574, "dur":6984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677238409025603, "dur":146979, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677238409172588, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677238409172599, "dur":1567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677238409174225, "dur":5527, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":13, "ts":1677238409179758, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677238409179770, "dur":2129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":13, "ts":1677238409181960, "dur":466, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Plugins/x86_64/opus_egpv.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677238409182429, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677238409184921, "dur":1406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Plugins/x86_64/opus_egpv.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677238409186406, "dur":250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":13, "ts":1677238409186659, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677238409186735, "dur":1062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":13, "ts":1677238409187863, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1677238409187913, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677238409187918, "dur":6304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1677238409194262, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/level3.resS" }}
+,{ "pid":12345, "tid":13, "ts":1677238409194303, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677238409194308, "dur":1517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/level3.resS" }}
+,{ "pid":12345, "tid":13, "ts":1677238409195860, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/level2" }}
+,{ "pid":12345, "tid":13, "ts":1677238409195895, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677238409195900, "dur":1549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/level2" }}
+,{ "pid":12345, "tid":13, "ts":1677238409197486, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/level0.resS" }}
+,{ "pid":12345, "tid":13, "ts":1677238409197526, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677238409197550, "dur":1154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/level0.resS" }}
+,{ "pid":12345, "tid":13, "ts":1677238409198733, "dur":149213, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1677238408628297, "dur":399, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1677238408628697, "dur":3452, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1677238408632155, "dur":9741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1677238408641899, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1677238408641971, "dur":1209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1677238408643217, "dur":69541, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677238408712764, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1677238408712872, "dur":5387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677238408718306, "dur":19093, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677238408737407, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1677238408737419, "dur":1030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677238408738492, "dur":46865, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677238408785361, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1677238408785368, "dur":1153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677238408786554, "dur":23853, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677238408810412, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1677238408810423, "dur":1420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677238408811879, "dur":23707, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677238408835591, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1677238408835609, "dur":5031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677238408840755, "dur":21513, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677238408862272, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1677238408862282, "dur":6760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677238408869077, "dur":15095, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677238408884175, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1677238408884183, "dur":1638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677238408885859, "dur":54725, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677238408940614, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1677238408940626, "dur":1082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677238408941744, "dur":184085, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677238409125833, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1677238409125843, "dur":1118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677238409126995, "dur":8893, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/PhotonChat.pdb" }}
+,{ "pid":12345, "tid":14, "ts":1677238409135894, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1677238409135905, "dur":1961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/PhotonChat.pdb" }}
+,{ "pid":12345, "tid":14, "ts":1677238409137902, "dur":15725, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/Photon3Unity3D.pdb" }}
+,{ "pid":12345, "tid":14, "ts":1677238409153633, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1677238409153644, "dur":1115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/Photon3Unity3D.pdb" }}
+,{ "pid":12345, "tid":14, "ts":1677238409154794, "dur":50332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677238409205132, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1677238409205164, "dur":922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677238409206119, "dur":141817, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1677238408628320, "dur":381, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1677238408628701, "dur":3455, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1677238408632158, "dur":9593, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":15, "ts":1677238408641758, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1677238408641784, "dur":1212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":15, "ts":1677238408643028, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":15, "ts":1677238408643126, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1677238408643153, "dur":62501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":15, "ts":1677238408705711, "dur":216108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/websocket-sharp.dll" }}
+,{ "pid":12345, "tid":15, "ts":1677238408921826, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1677238408921837, "dur":1005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/websocket-sharp.dll" }}
+,{ "pid":12345, "tid":15, "ts":1677238408922875, "dur":92506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":15, "ts":1677238409015386, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1677238409015397, "dur":1104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":15, "ts":1677238409016542, "dur":167520, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":15, "ts":1677238409184065, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1677238409184073, "dur":6265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":15, "ts":1677238409190371, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":15, "ts":1677238409190411, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1677238409190418, "dur":866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":15, "ts":1677238409191318, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":15, "ts":1677238409191354, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1677238409191360, "dur":776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":15, "ts":1677238409192170, "dur":1192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":15, "ts":1677238409193365, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1677238409193373, "dur":686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":15, "ts":1677238409194094, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/resources.assets" }}
+,{ "pid":12345, "tid":15, "ts":1677238409194131, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1677238409194136, "dur":3878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/resources.assets" }}
+,{ "pid":12345, "tid":15, "ts":1677238409198056, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":15, "ts":1677238409198095, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1677238409198100, "dur":1004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":15, "ts":1677238409199133, "dur":148820, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1677238408628064, "dur":536, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1677238408628600, "dur":3576, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1677238408632176, "dur":9743, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":16, "ts":1677238408641922, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1677238408641937, "dur":1218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":16, "ts":1677238408643194, "dur":62496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":16, "ts":1677238408705694, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1677238408706087, "dur":1865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":16, "ts":1677238408707994, "dur":18838, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1677238408726837, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1677238408726848, "dur":1005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1677238408727894, "dur":16974, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1677238408744872, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1677238408744881, "dur":790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1677238408745706, "dur":105880, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1677238408851590, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1677238408851619, "dur":1585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1677238408853247, "dur":51599, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1677238408904850, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1677238408904861, "dur":2063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1677238408906956, "dur":69279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":16, "ts":1677238408976241, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1677238408976253, "dur":952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":16, "ts":1677238408977243, "dur":118442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":16, "ts":1677238409095691, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1677238409095703, "dur":1044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":16, "ts":1677238409096782, "dur":7526, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/PhotonUnityNetworking.pdb" }}
+,{ "pid":12345, "tid":16, "ts":1677238409104313, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1677238409104324, "dur":905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/PhotonUnityNetworking.pdb" }}
+,{ "pid":12345, "tid":16, "ts":1677238409105262, "dur":9282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/PhotonUnityNetworking.Demos.pdb" }}
+,{ "pid":12345, "tid":16, "ts":1677238409114548, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1677238409114555, "dur":963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/PhotonUnityNetworking.Demos.pdb" }}
+,{ "pid":12345, "tid":16, "ts":1677238409115555, "dur":110933, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/PhotonUnityNetworking.Demos.dll" }}
+,{ "pid":12345, "tid":16, "ts":1677238409226493, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1677238409226502, "dur":802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Park/Desktop/unity/Game bulid/Poton sever game_Data/Managed/PhotonUnityNetworking.Demos.dll" }}
+,{ "pid":12345, "tid":16, "ts":1677238409227327, "dur":120617, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677238409351155, "dur":1458, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1677238409371018, "dur": 496, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677238409370754, "dur": 773, "ph": "X", "name": "Write chrome-trace events", "args": {} },
